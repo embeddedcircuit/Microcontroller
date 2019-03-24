@@ -1,7 +1,7 @@
+*{padding:0;  margin:0;}
 
 
-#main 
-{
-  background-color:lightblue
-
+#wrapper-mainpage{ 
+  padding: none;
+  background-color: rgb(234, 240, 240);
 }
