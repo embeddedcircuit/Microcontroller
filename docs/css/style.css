@@ -5,3 +5,25 @@
   padding: none;
   background-color: rgb(234, 240, 240);
 }
+
+#header{
+  background-color: rgb(39, 39, 39);
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#body{
+  background-color: rgb(255, 255, 255);
+  height: 425px;
+  color: white;
+  text-align: center;
+}
+
+#footer{
+  background-color: rgb(39, 39, 39);
+  height: 100px;
+  color: white;
+  text-align: center;
+}
