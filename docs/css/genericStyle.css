@@ -9,9 +9,8 @@
     width: 94%;
     float: left;
     margin: 2%;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 
   .frame{
@@ -20,9 +19,7 @@
     height: 210px;
     float: left;
     margin: 0.5%;
-    color: white;
-    text-align: center;
-    border: 2px solid red;
+    color: rgb(0, 113, 117);
   }
   .frame::after{content:""; display: block; clear:both;} 
 } 
@@ -35,9 +32,8 @@
     width: 94%;
     float: left;
     margin: 2%;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 
   .frame{
@@ -46,9 +42,7 @@
     height: 210px;
     float: left;
     margin: 0.5%;
-    color: white;
-    text-align: center;
-    border: 2px solid red;
+    color: rgb(0, 113, 117);
   }
   .frame::after{content:""; display: block; clear:both;} 
 } 
@@ -62,9 +56,8 @@
     width: 94%;
     float: left;
     margin: 2%;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 
   .frame{
@@ -73,9 +66,7 @@
     height: 210px;
     float: left;
     margin: 0.5%;
-    color: white;
-    text-align: center;
-    border: 2px solid red;
+    color: rgb(0, 113, 117);
   }
   .frame::after{content:""; display: block; clear:both;} 
 } 
@@ -89,9 +80,8 @@
     width: 94%;
     float: left;
     margin: 2%;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 
   .frame{
@@ -100,9 +90,7 @@
     height: 210px;
     float: left;
     margin: 0.5%;
-    color: white;
-    text-align: center;
-    border: 2px solid red;
+    color: rgb(0, 113, 117);
   }
   .frame::after{content:""; display: block; clear:both;} 
 
@@ -117,9 +105,8 @@
     width: 94%;
     float: left;
     margin: 2%;
-    color: white;
-    text-align: center;
-    border: 2px solid blue;
+    color: rgb(0, 0, 0);
+    text-align: left;
   }
 
   .frame{
@@ -128,9 +115,7 @@
     height: 210px;
     float: left;
     margin: 0.5%;
-    color: white;
-    text-align: center;
-    border: 2px solid red;
+    color: rgb(0, 113, 117);
   }
   .frame::after{content:""; display: block; clear:both;} 
 } 
@@ -154,7 +139,6 @@
   height: 100%;
   color: white;
   text-align: center;
-  border: 1px solid red;
 }
 #bodyin::after{content:""; display: block; clear:both;} 
 
@@ -175,10 +159,13 @@
 }
 
 a:hover { 
-  color: rgb(58, 228, 6);
+  color: rgb(255, 145, 0);
 }
 
 a{ 
-  color: rgb(39, 39, 39);
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
