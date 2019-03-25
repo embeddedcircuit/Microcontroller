@@ -89,7 +89,7 @@
   #content-list{
     text-decoration: none;
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(39, 39, 39);
     margin: 3%;
   }
@@ -107,7 +107,7 @@
   }
 
   #header{
-    font-size: 25px;
+    font-size: 20px;
   }
 } 
 
@@ -135,7 +135,7 @@
   }
 
   #header{
-    font-size: 25px;
+    font-size: 20px;
   }
 } 
 /*********************** end *******************************/
