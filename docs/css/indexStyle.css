@@ -133,15 +133,6 @@
   padding-top: 2%;
 }
 
-#bodyin{
-  background-color: rgb(255, 255, 255);
-  height: 100%;
-  color: white;
-  text-align: center;
-  border: 2px solid red;
-}
-#bodyin::after{content:""; display: block; clear:both;} 
-
 #footer{
   background-color: rgb(39, 39, 39);
   height: 100px;
