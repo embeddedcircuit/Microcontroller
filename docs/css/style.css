@@ -25,6 +25,12 @@
     border: 2px solid red;
   }
   .frame::after{content:""; display: block; clear:both;} 
+
+  
+li{
+  margin-left: 2%;
+}
+
 } 
 /****************** 992px and 1200px *******************************/
 @media(min-width:1001px ) and (max-width:1200px)
@@ -51,6 +57,12 @@
     border: 2px solid red;
   }
   .frame::after{content:""; display: block; clear:both;} 
+
+    
+li{
+  margin-left: 3%;
+}
+
 } 
 
 /****************** 701px and 1000px *******************************/
@@ -78,6 +90,12 @@
     border: 2px solid red;
   }
   .frame::after{content:""; display: block; clear:both;} 
+
+    
+li{
+  margin-left: 3%;
+}
+
 } 
 
 /****************** 701px and 1000px *******************************/
@@ -105,6 +123,12 @@
     border: 2px solid red;
   }
   .frame::after{content:""; display: block; clear:both;} 
+
+    
+li{
+  margin-left: 3%;
+}
+
 } 
 
 /****************** 701px and 1000px *******************************/
@@ -132,6 +156,12 @@
     border: 2px solid red;
   }
   .frame::after{content:""; display: block; clear:both;} 
+
+    
+li{
+  margin-left: 10%;
+}
+
 } 
 /*********************** end *******************************/
 
@@ -170,6 +200,7 @@
   font-size: 200%;
   color: rgb(39, 39, 39);
   margin: 3%;
+  border: solid black;
 }
 
 a:hover { 
@@ -180,6 +211,3 @@ a{
   color: rgb(39, 39, 39);
 }
 
-li{
-  margin-left: 3%;
-}
