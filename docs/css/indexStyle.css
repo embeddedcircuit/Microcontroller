@@ -1,0 +1,158 @@
+*{padding:0;  margin:0;}
+
+/****************** 1200px *******************************/
+@media(min-width:1201px)
+{
+  #content-list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    margin: 3%;
+    border: solid black;
+  }
+  
+  a:hover { 
+    color: rgb(58, 228, 6);
+  }
+  
+  a{ 
+    color: rgb(39, 39, 39);
+  }
+
+  li{
+    margin-left: 10%;
+  }
+} 
+/****************** 992px and 1200px *******************************/
+@media(min-width:1001px ) and (max-width:1200px)
+{
+  #content-list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    margin: 3%;
+    border: solid black;
+  }
+  
+  a:hover { 
+    color: rgb(58, 228, 6);
+  }
+  
+  a{ 
+    color: rgb(39, 39, 39);
+  }
+
+  li{
+    margin-left: 10%;
+  }
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(min-width:701px ) and (max-width:1000px)
+{
+  #content-list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    margin: 3%;
+    border: solid black;
+  }
+  
+  a:hover { 
+    color: rgb(58, 228, 6);
+  }
+  
+  a{ 
+    color: rgb(39, 39, 39);
+  }
+
+  li{
+    margin-left: 10%;
+  }
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(min-width:451px ) and (max-width:700px)
+{
+  #content-list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    margin: 3%;
+    border: solid black;
+  }
+  
+  a:hover { 
+    color: rgb(58, 228, 6);
+  }
+  
+  a{ 
+    color: rgb(39, 39, 39);
+  }
+
+  li{
+    margin-left: 10%;
+  }
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(max-width:450px)
+{
+  #content-list{
+    text-decoration: none;
+    text-align: left;
+    font-size: 32px;
+    color: rgb(39, 39, 39);
+    margin: 3%;
+    border: solid black;
+  }
+  
+  a:hover { 
+    color: rgb(58, 228, 6);
+  }
+  
+  a{ 
+    color: rgb(39, 39, 39);
+  }
+
+  li{
+    margin-left: 10%;
+  }
+} 
+/*********************** end *******************************/
+
+#wrapper-mainpage{ 
+  padding: none;
+  background-color: rgb(234, 240, 240);
+}
+
+#header{
+  background-color: rgb(39, 39, 39);
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#bodyin{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  color: white;
+  text-align: center;
+  border: 2px solid red;
+}
+#bodyin::after{content:""; display: block; clear:both;} 
+
+#footer{
+  background-color: rgb(39, 39, 39);
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+
+
