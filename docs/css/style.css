@@ -168,6 +168,14 @@
   text-decoration: none;
   text-align: left;
   font-size: 30px;
-  color: rgb(230, 8, 8);
+  color: rgb(39, 39, 39);
   margin: 3%;
+}
+
+a:hover { 
+  color: rgb(228, 6, 6);
+}
+
+a{ 
+  color: rgb(39, 39, 39);
 }
