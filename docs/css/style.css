@@ -1,5 +1,139 @@
 *{padding:0;  margin:0;}
 
+/****************** 1200px *******************************/
+@media(min-width:1201px)
+{
+
+  #main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 94%;
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+  }
+
+  .frame{
+    background-color: rgb(255, 255, 255);
+    width: 24%;
+    height: 210px;
+    float: left;
+    margin: 0.5%;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+  }
+  .frame::after{content:""; display: block; clear:both;} 
+} 
+/****************** 992px and 1200px *******************************/
+@media(min-width:1001px ) and (max-width:1200px)
+{
+
+  #main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 94%;
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+  }
+
+  .frame{
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 210px;
+    float: left;
+    margin: 0.5%;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+  }
+  .frame::after{content:""; display: block; clear:both;} 
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(min-width:701px ) and (max-width:1000px)
+{
+
+  #main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 94%;
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+  }
+
+  .frame{
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    height: 210px;
+    float: left;
+    margin: 0.5%;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+  }
+  .frame::after{content:""; display: block; clear:both;} 
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(min-width:451px ) and (max-width:700px)
+{
+
+  #main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 94%;
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+  }
+
+  .frame{
+    background-color: rgb(255, 255, 255);
+    width: 49%;
+    height: 210px;
+    float: left;
+    margin: 0.5%;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+  }
+  .frame::after{content:""; display: block; clear:both;} 
+} 
+
+/****************** 701px and 1000px *******************************/
+@media(max-width:450px)
+{
+
+  #main-frame{
+    background-color: rgb(255, 255, 255);
+    width: 94%;
+    float: left;
+    margin: 2%;
+    color: white;
+    text-align: center;
+    border: 2px solid blue;
+  }
+
+  .frame{
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: 210px;
+    float: left;
+    margin: 0.5%;
+    color: white;
+    text-align: center;
+    border: 2px solid red;
+  }
+  .frame::after{content:""; display: block; clear:both;} 
+} 
+/*********************** end *******************************/
 
 #wrapper-mainpage{ 
   padding: none;
@@ -18,23 +152,10 @@
   background-color: rgb(255, 255, 255);
   height: 100%;
   color: white;
-  padding: 500%
   text-align: center;
   border: 2px solid red;
 }
 #body::after{content:""; display: block; clear:both;} 
-
-.frame{
-  background-color: rgb(255, 255, 255);
-  width: 300px;
-  height: 210px;
-  float: left;
-  margin: 10px;
-  color: white;
-  text-align: center;
-  border: 2px solid red;
-}
-.frame::after{content:""; display: block; clear:both;} 
 
 #footer{
   background-color: rgb(39, 39, 39);
