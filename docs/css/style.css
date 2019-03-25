@@ -170,8 +170,6 @@
   font-size: 200%;
   color: rgb(39, 39, 39);
   margin: 3%;
-  border: solid black;
-  list-style-position: inside;
 }
 
 a:hover { 
@@ -180,4 +178,8 @@ a:hover {
 
 a{ 
   color: rgb(39, 39, 39);
+}
+
+li{
+  margin-left: 3%;
 }
